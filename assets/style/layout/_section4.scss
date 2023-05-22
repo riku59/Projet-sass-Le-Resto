@@ -1,0 +1,204 @@
+.section4{
+    margin: 100px 0;
+    display: none;
+    h2{
+        font-weight: 100;
+        font-size: 2rem;
+    }
+    h3{
+        text-transform: uppercase;
+        color: $blanc;
+        font-size: 1.7rem;
+        font-family: $font2;
+        letter-spacing: 3px;
+        margin-top: -12px;
+    }
+    img{
+       margin: 20px; 
+    }
+    .events{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "event1 event3"
+        "event2 event3";
+        width: 75%;
+        margin: 0 auto;
+        min-height: 300px;
+        text-align: left;
+        gap: 15px;
+        h4{
+            color: $black1;
+            font-weight: 100;
+            font-size: 1.6rem;
+            letter-spacing: 2px;
+            
+        }
+
+        .horraire{
+                    
+                    color: $gris;
+                    font-size: 1rem;
+                    i{
+                        margin-left: 5px;
+                    }
+                }
+        a{
+            text-transform: uppercase;
+            color: $black1;
+            text-decoration: none;
+            font-family: $font2;
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+            padding-bottom: 50px;
+            
+        }
+        
+        .event1{
+            display: grid;
+            grid-template-columns: 40% 60%;
+            grid-area: event1;
+            
+            .date{
+                background: $black1;
+                height: 80px;
+                width: 80px;
+                margin: auto;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                span{
+                    font-size: 1.7rem;
+                    font-weight: bolder;
+                }
+                p{
+                    font-size: 1.3rem;
+                    
+                }
+            }
+
+            .event1-left{
+                background: url(../image/event-01.jpg) center/cover ;
+                display: flex;
+            }
+            .event1-right{
+                display: grid;
+                align-items: center;
+                grid-template-rows: 1fr 1fr 1fr;
+                background: $blanc;
+                padding-left: 10px;
+                h4{
+                    color: $black1;
+                }
+                
+            }
+        }
+    
+    .event2{
+            background: url(../image/event-03.jpg) center/cover;
+            grid-area: event3;
+            .event2-right{
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                
+                .bg{
+                    display: grid;
+                grid-template-rows: 25% 25% 25% 25%;
+                height: 90%;
+                width: 90%;
+                
+                
+                
+                background: $blanc;
+                .date{
+                   
+                background: $black1;
+                height: 80px;
+                width: 80px;
+                margin: 0 auto;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                span{
+                    font-size: 1.7rem;
+                    font-weight: bolder;
+                }
+                p{
+                    font-size: 1.3rem;
+                    
+                }
+
+                }
+                
+                h4{
+                    display: flex;
+                    align-items: flex-end;
+                  margin: 0 auto;
+                  width: 70%;
+                  font-size: 1.6rem;
+                  text-align: center;
+                }
+                .horraire{
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                a{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            }
+            
+    }
+    .event3{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-area: event2;
+       .date{
+                background: $black1;
+                height: 75px;
+                width: 75px;
+                margin: auto;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                span{
+                    font-size: 1.7rem;
+                    font-weight: bolder;
+                }
+                p{
+                    font-size: 1.3rem;
+                    
+                }
+            }
+        
+
+        .event3-left{
+            background: url(../image/event-02.jpg) center/cover ;
+            display: flex;
+
+            
+        }
+        .event3-right{
+            display: grid;
+            align-items: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            background: $blanc;
+            padding-left: 10px;
+        }
+}
+}
+}
